@@ -2,7 +2,8 @@ def exibir_menu():
     print("\n=== Caixa Eletrônico ===")
     print("1 - Consultar Saldo")
     print("2 - Sacar Dinheiro")
-    print("3 - Sair")
+    print("3 - Depositar Dinheiro")
+    print("4 - Sair")
 
 def caixa_eletronico():
     saldo = 1000  # Saldo inicial
@@ -26,8 +27,18 @@ def caixa_eletronico():
             else:
                 saldo -= saque
                 print(f"\nSaque realizado com sucesso! Novo saldo: R$ {saldo:.2f}")
-
+            
         elif opcao == "3":
+            deposito = float(input("\nDigite o valor do deposito: R$ "))
+    
+            if deposito <= 0:
+                print("\nValor invalido! Por favor digite um valor maior que zero.")
+
+            else:
+                    saldo += deposito
+                    print(f"\nDeposito realizado com sucesso! Novo saldo: R$ {saldo:.32f}")
+
+        elif opcao == "4":
             print("\nObrigado por usar o caixa eletrônico!")
             break  # Sai do loop
         else:
