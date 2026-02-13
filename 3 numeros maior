@@ -1,0 +1,14 @@
+print("Verifique qual de 3 numeros e o maior")
+
+num1 = int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o segundo numero: "))
+num3 = int(input("Digite o terceiro numero: "))
+
+if num1 > num2:
+    if num1 > num3:
+        print("O primeiro numero e o maior")
+elif num2 > num1:
+    if num2 > num3:
+        print("O segundo numero e o maior")
+    else:
+        print("O terceiro numero e o maior")
