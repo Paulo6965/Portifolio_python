@@ -1,0 +1,4 @@
+nome = str(input("Digite seu nome: "))
+profissão = str(input("Digite sua profissão: "))
+
+print(f"Ola ", nome, " voce trabalha de", profissão)
