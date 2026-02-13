@@ -1,0 +1,7 @@
+print("Verificar se um numero e maior que 10")
+
+numero1 = float(input("Digite o primeiro numero: "))
+if numero1 > 10:
+    print("O numero e maior que 10")
+else:
+    print("O numero e menor que 10")
