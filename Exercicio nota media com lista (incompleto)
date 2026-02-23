@@ -1,0 +1,20 @@
+nomes_alunos = [f"Ana" "Bruno" "Carla" "Daniel" "Elena"]
+
+notas_alunos = {
+"Ana": [8.5, 7.0, 9.0, 8.0],
+"Bruno": [9.0, 7.0, 6.0, 8.0],
+"Carla": [5.0, 4.5, 9.0, 10.0],
+"Daniel": [7.0, 2.5, 6.5, 1,0],
+"Elena": [5.0, 4.5, 6.0, 6.5]
+}
+
+def calcular_media_aluno(nome_aluno):
+    media = int(sum(notas_alunos)) / int(len(notas_alunos))
+    return media
+       
+    # Soma de todos os valores
+    # Dividido pela quantidade de somas feitas
+    # é isso :)
+
+nota_media = calcular_media_aluno
+print(nota_media)
