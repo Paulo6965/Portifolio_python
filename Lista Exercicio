@@ -1,0 +1,11 @@
+minha_segunda_lista = [8, "Corinthians", True, 1.2, ["Apartamento", 1]]
+print(f"Terceiro elemento da lista", minha_segunda_lista[2], minha_segunda_lista [-1])
+
+minha_segunda_lista[1] = ("51 e pinga")
+
+minha_segunda_lista.append(10)
+minha_segunda_lista.insert(1, 1)
+
+minha_segunda_lista.remove(True)
+pop_4 = minha_segunda_lista.pop(3)
+print(pop_4, "este valor foi removido da lista")
