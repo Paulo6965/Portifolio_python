@@ -1,0 +1,3 @@
+peso = float(input("Digite o seu peso em Kg: "))
+peso_libras = float =  peso * 2.20462
+print(f"Seu peso em Kg e: {peso}! \n e seu peso em libras e {peso_libras}!")
